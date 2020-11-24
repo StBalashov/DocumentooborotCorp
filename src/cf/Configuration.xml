@@ -189,6 +189,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Catalog>Валюты</Catalog>
+			<Catalog>Организации</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
