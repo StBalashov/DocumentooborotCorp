@@ -197,6 +197,7 @@
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>КонтактныеЛицаКонтрагентов</Catalog>
+			<Catalog>Файлы</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
