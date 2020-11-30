@@ -190,6 +190,7 @@
 			<Language>Русский</Language>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Админ</Role>
+			<CommonModule>РаботаСПользователями</CommonModule>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
