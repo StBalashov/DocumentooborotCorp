@@ -195,6 +195,7 @@
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Контрагенты</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
