@@ -4,7 +4,59 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>Catalog.Пользователи</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВидыДокументов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ВнутренниеДокументы</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<field>Code</field>
+				<field>DataVersion</field>
+				<field>DeletionMark</field>
+				<field>Description</field>
+				<field>Predefined</field>
+				<field>PredefinedDataName</field>
+				<field>Ref</field>
+				<field>Автор</field>
+				<field>Вид</field>
+				<field>Комментарий</field>
+				<field>КонтактноеЛицо</field>
+				<field>Контрагент</field>
+				<field>Организация</field>
+				<field>Предметы</field>
+				<field>Предметы.LineNumber</field>
+				<field>Предметы.Файл</field>
+				<condition>ВнутренниеДокументы ГДЕ ВнутренниеДокументы.Вид.РабочаяГруппа.Пользователь = &amp;ТекущийПользователь</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.КонтактныеЛицаКонтрагентов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -58,6 +110,28 @@
 		</right>
 		<right>
 			<name>Output</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Организации</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Контрагенты</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
