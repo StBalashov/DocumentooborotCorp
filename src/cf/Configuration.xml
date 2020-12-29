@@ -194,7 +194,10 @@
 			<Role>ЧтениеКонтрагентов</Role>
 			<Role>ИзменениеДокументов</Role>
 			<Role>ИзменениеКонтрагентов</Role>
+			<Role>СогласованиеДокументов</Role>
 			<CommonModule>РаботаСПользователями</CommonModule>
+			<CommonModule>ПолнотекстовыйПоискПоФайлам</CommonModule>
+			<CommonModule>РаботаСФайлами</CommonModule>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
@@ -205,6 +208,8 @@
 			<Catalog>Файлы</Catalog>
 			<Catalog>ВнутренниеДокументы</Catalog>
 			<Catalog>ВидыДокументов</Catalog>
+			<Enum>ПеречислениеСогласован</Enum>
+			<DataProcessor>ЗапуститьОбновлениеИндексаПоиска</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

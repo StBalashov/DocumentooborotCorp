@@ -69,4 +69,15 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>Catalog.ВнутренниеДокументы.Attribute.Согласован</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
 </Rights>
