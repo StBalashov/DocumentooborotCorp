@@ -209,8 +209,13 @@
 			<Catalog>ВнутренниеДокументы</Catalog>
 			<Catalog>ВидыДокументов</Catalog>
 			<Catalog>Проекты</Catalog>
+			<Document>ПлановыеЗатратыПроекта</Document>
+			<Document>ФактическиеРасходы</Document>
 			<Enum>ПеречислениеСогласован</Enum>
+			<Report>ПланФактПроектов</Report>
 			<DataProcessor>ЗапуститьОбновлениеИндексаПоиска</DataProcessor>
+			<AccumulationRegister>ЗатратыПоПроектам</AccumulationRegister>
+			<ChartOfCharacteristicTypes>СтатьиЗатратПоПроектам</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
