@@ -208,6 +208,7 @@
 			<Catalog>Файлы</Catalog>
 			<Catalog>ВнутренниеДокументы</Catalog>
 			<Catalog>ВидыДокументов</Catalog>
+			<Catalog>Проекты</Catalog>
 			<Enum>ПеречислениеСогласован</Enum>
 			<DataProcessor>ЗапуститьОбновлениеИндексаПоиска</DataProcessor>
 		</ChildObjects>
