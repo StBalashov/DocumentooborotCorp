@@ -25,6 +25,11 @@
 			<ContextMenu name="ИдентификаторКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ИдентификаторРасширеннаяПодсказка" id="9"/>
 		</InputField>
+		<InputField name="Подразделение" id="13">
+			<DataPath>Объект.Подразделение</DataPath>
+			<ContextMenu name="ПодразделениеКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="15"/>
+		</InputField>
 		<InputField name="Роль" id="10">
 			<DataPath>Объект.Роль</DataPath>
 			<EditMode>EnterOnInput</EditMode>
