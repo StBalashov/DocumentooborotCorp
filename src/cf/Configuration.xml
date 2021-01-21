@@ -189,6 +189,8 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
+			<SessionParameter>РазделительЗначение</SessionParameter>
+			<SessionParameter>РазделительИспользование</SessionParameter>
 			<Role>Админ</Role>
 			<Role>ЧтениеДокументов</Role>
 			<Role>ЧтениеКонтрагентов</Role>
@@ -198,6 +200,7 @@
 			<CommonModule>РаботаСПользователями</CommonModule>
 			<CommonModule>ПолнотекстовыйПоискПоФайлам</CommonModule>
 			<CommonModule>РаботаСФайлами</CommonModule>
+			<CommonAttribute>Разделитель</CommonAttribute>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
