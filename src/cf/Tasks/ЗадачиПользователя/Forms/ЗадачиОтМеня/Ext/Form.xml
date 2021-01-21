@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="" id="-1"/>
 	<ChildItems>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
 			<Title>
@@ -83,17 +83,17 @@
 					<ContextMenu name="ДатаКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="24"/>
 				</LabelField>
-				<LabelField name="Автор" id="28">
-					<DataPath>Список.Автор</DataPath>
-					<ContextMenu name="АвторКонтекстноеМеню" id="29"/>
-					<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="30"/>
-				</LabelField>
 				<CheckBoxField name="Выполнена" id="25">
 					<DataPath>Список.Executed</DataPath>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ВыполненаКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="ВыполненаРасширеннаяПодсказка" id="27"/>
 				</CheckBoxField>
+				<LabelField name="Автор" id="28">
+					<DataPath>Список.Автор</DataPath>
+					<ContextMenu name="АвторКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="30"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
@@ -105,18 +105,12 @@
 			<MainAttribute>true</MainAttribute>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
-				<DynamicDataRead>false</DynamicDataRead>
-				<MainTable>Task.ЗадачиПользователя.TasksByExecutive</MainTable>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Task.ЗадачиПользователя</MainTable>
 				<ListSettings>
 					<dcsset:filter>
-						<dcsset:item xsi:type="dcsset:FilterItemComparison">
-							<dcsset:left xsi:type="dcscor:Field">Выполнена</dcsset:left>
-							<dcsset:comparisonType>Equal</dcsset:comparisonType>
-							<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
-							<dcsset:userSettingID>912cb88c-55ca-4ef7-911b-a25523a786a2</dcsset:userSettingID>
-						</dcsset:item>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
-						<dcsset:userSettingID>97e7e699-72ef-4f18-8b1e-a8d029183f26</dcsset:userSettingID>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
 					<dcsset:order>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
