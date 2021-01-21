@@ -219,6 +219,7 @@
 			<DataProcessor>ЗапуститьОбновлениеИндексаПоиска</DataProcessor>
 			<AccumulationRegister>ЗатратыПоПроектам</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиЗатратПоПроектам</ChartOfCharacteristicTypes>
+			<Task>ЗадачиПользователя</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
