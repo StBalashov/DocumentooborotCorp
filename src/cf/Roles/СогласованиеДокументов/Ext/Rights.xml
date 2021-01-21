@@ -50,4 +50,11 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>Task.ЗадачиПользователя.Attribute.ДатаФактическогоВыполнения</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
 </Rights>

@@ -125,6 +125,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Task.ЗадачиПользователя.Attribute.ДатаФактическогоВыполнения</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Контрагенты</name>
 		<right>
 			<name>Read</name>
